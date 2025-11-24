@@ -1,0 +1,36 @@
+[
+  { "numero": 1, "letra": "A" },
+  { "numero": 1, "letra": "J" },
+  { "numero": 1, "letra": "S" },
+
+  { "numero": 2, "letra": "B" },
+  { "numero": 2, "letra": "K" },
+  { "numero": 2, "letra": "T" },
+
+  { "numero": 3, "letra": "C" },
+  { "numero": 3, "letra": "L" },
+  { "numero": 3, "letra": "U" },
+
+  { "numero": 4, "letra": "D" },
+  { "numero": 4, "letra": "M" },
+  { "numero": 4, "letra": "V" },
+
+  { "numero": 5, "letra": "E" },
+  { "numero": 5, "letra": "N" },
+  { "numero": 5, "letra": "W" },
+
+  { "numero": 6, "letra": "F" },
+  { "numero": 6, "letra": "O" },
+  { "numero": 6, "letra": "X" },
+
+  { "numero": 7, "letra": "G" },
+  { "numero": 7, "letra": "P" },
+  { "numero": 7, "letra": "Y" },
+
+  { "numero": 8, "letra": "H" },
+  { "numero": 8, "letra": "Q" },
+  { "numero": 8, "letra": "Z" },
+
+  { "numero": 9, "letra": "I" },
+  { "numero": 9, "letra": "R" }
+]

@@ -1,0 +1,5 @@
+projeto_cartas_st/.streamlit/secrets.toml
+.env
+__pycache__/
+*.pyc
+.vscode/
