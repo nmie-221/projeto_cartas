@@ -57,12 +57,11 @@ def calcula_fator_oculto(birth_date: date) -> Tuple[int, int]:
 
 def calcula_energia_ano(day: int, month: int, year: int) -> Tuple[int, int]:
     """
-    Calcula o Fator Oculto somando TODOS os dígitos (ddmmaaaa) com ano passado como parâmetro.
-    Ex.: day=16, month=4, year=2001 -> digits "16042001" -> 1+6+0+4+2+0+0+1 = 14
-    Se o resultado for > 22, reduz somando os dígitos até <= 22.
-    Retorna (raw_digit_sum, reduced_value).
+    Calcula a 'energia do ano' somando os componentes (dia + mês + ano).
+    Ex.: day=16, month=4, year=2026 -> 16 + 4 + 2026 = 2046
+    Se o resultado for > 22, reduz somando os dígitos repetidamente até <= 22.
+    Retorna (raw_sum, reduced_value).
     """
-    s = f"{day:02d}{month:02d}{year:04d}"  # formata com zeros à esquerda
-    raw = sum(int(ch) for ch in s if ch.isdigit())
+    raw = int(day) + int(month) + int(year)
     reduced = reduce_to_limit(raw, limit=22) if raw > 22 else raw
     return raw, reduced
