@@ -130,7 +130,7 @@ Tonalidade: profissional, acolhedora e construtiva.
             "fator_numero": arcanos.get('fator_oculto', {}).get('numero', 'N/A'),
             "energia_ano_arcano": arcanos.get('energia_ano', {}).get('arcano', 'N/A'),
             "energia_ano_numero": arcanos.get('energia_ano', {}).get('numero', 'N/A'),
-            "energia_nome": arcanos.get('energia_nome', {}).get('nome_energia', 'N/A'),
+            "energia_nome": arcanos.get('energia_nome', {}).get('arcano', 'N/A'),
             "energia_nome_numero": arcanos.get('energia_nome', {}).get('numero', 'N/A'),
         })
 
